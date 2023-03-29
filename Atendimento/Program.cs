@@ -11,9 +11,15 @@ namespace Atendimento
 
         static void Main(string[] args)
         {
+            Cliente meuCliente = new Cliente("João Silva", "Rua ABC 123", "(11)01234-5678", "joao.silva@gmail.com");
+
+
             Cartao MeuCartao = new Cartao();
+            meuCliente.Cartoes.Add(new Cartao());
+
 
             Console.WriteLine("Bem-vindo ao sistema de atendimento ao cliente!");
+            Console.WriteLine($"Cliente: {meuCliente.Nome}");
             Console.WriteLine();
 
             Console.WriteLine($"{"Escolha uma opção:",50}");

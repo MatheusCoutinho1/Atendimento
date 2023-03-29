@@ -22,7 +22,7 @@ namespace Atendimento
 
         public static void FalarComAtendente()
         {
-            Console.WriteLine("Olá, em que posso ajudar?");
+            Console.WriteLine($"Olá, em que posso ajudar?");
         }
 
         public static void SairDoSistema()
